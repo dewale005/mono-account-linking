@@ -1,10 +1,10 @@
 import { Route, Routes,  Redirect } from 'react-router-dom';
-import LoginPage from './components/Login/Login';
+import Authentications from './pages/Authentication/Authentications';
 
 function App() {
   return (
     <Routes>
-      <Route exact path="/" element={<LoginPage />} />
+      <Route exact path="/" element={<Authentications />} />
     </Routes>
   );
 }

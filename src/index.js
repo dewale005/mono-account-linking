@@ -4,6 +4,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+// third party font style 
+import './assets/font/stylesheet.css'
+
 ReactDOM.render(
   <Router>
     <App />
